@@ -8840,8 +8840,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="470"/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="15K"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="22K"/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
@@ -8857,6 +8857,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <plain>
 <text x="259.08" y="251.46" size="1.778" layer="91">Isolated analog ground plane with single
 connection to digital ground</text>
+<text x="182.88" y="215.9" size="1.778" layer="91">L1, L2, L3: Ferrite Chip - BLM18PG471SN1</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="149.86" y="116.84"/>
@@ -9873,20 +9874,6 @@ connection to digital ground</text>
 <label x="175.26" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TD" class="0">
-<segment>
-<wire x1="187.96" y1="259.08" x2="172.72" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="5"/>
-<label x="175.26" y="259.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RD" class="0">
-<segment>
-<wire x1="187.96" y1="261.62" x2="172.72" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="6"/>
-<label x="175.26" y="261.62" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="MCLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA18"/>
@@ -10034,6 +10021,11 @@ connection to digital ground</text>
 <wire x1="276.86" y1="177.8" x2="259.08" y2="177.8" width="0.1524" layer="91"/>
 <label x="261.62" y="177.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="187.96" y1="259.08" x2="172.72" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="5"/>
+<label x="175.26" y="259.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TDMI" class="0">
 <segment>
@@ -10046,6 +10038,11 @@ connection to digital ground</text>
 <wire x1="307.34" y1="205.74" x2="307.34" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="218.44" x2="259.08" y2="218.44" width="0.1524" layer="91"/>
 <label x="261.62" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="187.96" y1="261.62" x2="172.72" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="6"/>
+<label x="175.26" y="261.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIN" class="0">
