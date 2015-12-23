@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8667,6 +8667,10 @@ Rebel - DIO-09553&lt;br&gt;
 <text x="259.08" y="251.46" size="1.778" layer="91">Isolated analog ground plane with single
 connection to digital ground</text>
 <text x="182.88" y="215.9" size="1.778" layer="91">L1, L2, L3: Ferrite Chip - BLM18PG471SN1</text>
+<wire x1="233.68" y1="261.62" x2="419.1" y2="261.62" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="419.1" y1="261.62" x2="419.1" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="419.1" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="233.68" y1="101.6" x2="233.68" y2="261.62" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="149.86" y="116.84"/>
@@ -10062,14 +10066,6 @@ connection to digital ground</text>
 <pinref part="JP4" gate="G$1" pin="19"/>
 <wire x1="383.54" y1="215.9" x2="373.38" y2="215.9" width="0.1524" layer="91"/>
 <label x="373.38" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<wire x1="233.68" y1="261.62" x2="419.1" y2="261.62" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="419.1" y1="261.62" x2="419.1" y2="101.6" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="419.1" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="233.68" y1="101.6" x2="233.68" y2="261.62" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 </net>
 <net name="DBUG" class="0">
