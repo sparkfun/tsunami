@@ -1969,55 +1969,55 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 </package>
 <package name="2X5_PTH_SILK_.05">
-<pad name="1" x="0" y="6.35" drill="0.4318" shape="square"/>
-<pad name="2" x="1.27" y="6.35" drill="0.4318"/>
-<pad name="3" x="0" y="5.08" drill="0.4318"/>
-<pad name="4" x="1.27" y="5.08" drill="0.4318"/>
-<pad name="5" x="0" y="3.81" drill="0.4318"/>
-<pad name="6" x="1.27" y="3.81" drill="0.4318"/>
-<pad name="7" x="0" y="2.54" drill="0.4318"/>
-<pad name="8" x="1.27" y="2.54" drill="0.4318"/>
-<pad name="9" x="0" y="1.27" drill="0.4318"/>
-<pad name="10" x="1.27" y="1.27" drill="0.4318"/>
-<wire x1="0.635" y1="6.985" x2="0.762" y2="7.112" width="0.127" layer="21"/>
-<wire x1="0.762" y1="7.112" x2="1.778" y2="7.112" width="0.127" layer="21"/>
-<wire x1="1.778" y1="7.112" x2="2.032" y2="6.858" width="0.127" layer="21"/>
-<wire x1="2.032" y1="6.858" x2="2.032" y2="5.842" width="0.127" layer="21"/>
-<wire x1="2.032" y1="5.842" x2="1.905" y2="5.715" width="0.127" layer="21"/>
-<wire x1="1.905" y1="5.715" x2="2.032" y2="5.588" width="0.127" layer="21"/>
-<wire x1="2.032" y1="5.588" x2="2.032" y2="4.572" width="0.127" layer="21"/>
-<wire x1="2.032" y1="4.572" x2="1.905" y2="4.445" width="0.127" layer="21"/>
-<wire x1="1.905" y1="4.445" x2="2.032" y2="4.318" width="0.127" layer="21"/>
-<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="21"/>
-<wire x1="2.032" y1="3.302" x2="1.905" y2="3.175" width="0.127" layer="21"/>
-<wire x1="1.905" y1="3.175" x2="2.032" y2="3.048" width="0.127" layer="21"/>
-<wire x1="2.032" y1="3.048" x2="2.032" y2="2.032" width="0.127" layer="21"/>
-<wire x1="2.032" y1="2.032" x2="1.905" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.905" y1="1.905" x2="2.032" y2="1.778" width="0.127" layer="21"/>
-<wire x1="2.032" y1="1.778" x2="2.032" y2="0.762" width="0.127" layer="21"/>
-<wire x1="2.032" y1="0.762" x2="1.778" y2="0.508" width="0.127" layer="21"/>
-<wire x1="1.778" y1="0.508" x2="0.762" y2="0.508" width="0.127" layer="21"/>
-<wire x1="0.762" y1="0.508" x2="0.635" y2="0.635" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0.635" x2="0.508" y2="0.508" width="0.127" layer="21"/>
-<wire x1="0.508" y1="0.508" x2="-0.508" y2="0.508" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="0.508" x2="-0.762" y2="0.762" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="1.778" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="1.778" x2="-0.635" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.905" x2="-0.762" y2="2.032" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="2.032" x2="-0.762" y2="3.048" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="3.048" x2="-0.635" y2="3.175" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="3.175" x2="-0.762" y2="3.302" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="3.302" x2="-0.762" y2="4.318" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="4.318" x2="-0.635" y2="4.445" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="4.445" x2="-0.762" y2="4.572" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="4.572" x2="-0.762" y2="5.588" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="5.588" x2="-0.635" y2="5.715" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="5.715" x2="-0.762" y2="5.842" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="5.842" x2="-0.762" y2="6.858" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="6.858" x2="-0.508" y2="7.112" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="7.112" x2="0.508" y2="7.112" width="0.127" layer="21"/>
-<wire x1="0.508" y1="7.112" x2="0.635" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="7.366" x2="0.508" y2="7.366" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.4318" shape="square" rot="R180"/>
+<pad name="2" x="-1.27" y="0" drill="0.4318" rot="R180"/>
+<pad name="3" x="0" y="1.27" drill="0.4318" rot="R180"/>
+<pad name="4" x="-1.27" y="1.27" drill="0.4318" rot="R180"/>
+<pad name="5" x="0" y="2.54" drill="0.4318" rot="R180"/>
+<pad name="6" x="-1.27" y="2.54" drill="0.4318" rot="R180"/>
+<pad name="7" x="0" y="3.81" drill="0.4318" rot="R180"/>
+<pad name="8" x="-1.27" y="3.81" drill="0.4318" rot="R180"/>
+<pad name="9" x="0" y="5.08" drill="0.4318" rot="R180"/>
+<pad name="10" x="-1.27" y="5.08" drill="0.4318" rot="R180"/>
+<wire x1="-0.635" y1="-0.635" x2="-0.762" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="-0.762" x2="-1.778" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-0.762" x2="-2.032" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-0.508" x2="-2.032" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="0.508" x2="-1.905" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0.635" x2="-2.032" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="0.762" x2="-2.032" y2="1.778" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.778" x2="-1.905" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-2.032" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="2.032" x2="-2.032" y2="3.048" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="3.048" x2="-1.905" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.175" x2="-2.032" y2="3.302" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="3.302" x2="-2.032" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="4.318" x2="-1.905" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="4.445" x2="-2.032" y2="4.572" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="4.572" x2="-2.032" y2="5.588" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="5.588" x2="-1.778" y2="5.842" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="5.842" x2="-0.762" y2="5.842" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="5.842" x2="-0.635" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="5.715" x2="-0.508" y2="5.842" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="5.842" x2="0.508" y2="5.842" width="0.127" layer="21"/>
+<wire x1="0.508" y1="5.842" x2="0.762" y2="5.588" width="0.127" layer="21"/>
+<wire x1="0.762" y1="5.588" x2="0.762" y2="4.572" width="0.127" layer="21"/>
+<wire x1="0.762" y1="4.572" x2="0.635" y2="4.445" width="0.127" layer="21"/>
+<wire x1="0.635" y1="4.445" x2="0.762" y2="4.318" width="0.127" layer="21"/>
+<wire x1="0.762" y1="4.318" x2="0.762" y2="3.302" width="0.127" layer="21"/>
+<wire x1="0.762" y1="3.302" x2="0.635" y2="3.175" width="0.127" layer="21"/>
+<wire x1="0.635" y1="3.175" x2="0.762" y2="3.048" width="0.127" layer="21"/>
+<wire x1="0.762" y1="3.048" x2="0.762" y2="2.032" width="0.127" layer="21"/>
+<wire x1="0.762" y1="2.032" x2="0.635" y2="1.905" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.905" x2="0.762" y2="1.778" width="0.127" layer="21"/>
+<wire x1="0.762" y1="1.778" x2="0.762" y2="0.762" width="0.127" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.635" y2="0.635" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="0.762" y2="0.508" width="0.127" layer="21"/>
+<wire x1="0.762" y1="0.508" x2="0.762" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-0.508" x2="0.508" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-0.762" x2="-0.508" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="-0.762" x2="-0.635" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-1.016" x2="-0.508" y2="-1.016" width="0.127" layer="21"/>
 </package>
 <package name="2X5-SHROUDED-NS">
 <wire x1="-2.775" y1="5.715" x2="-2.775" y2="4.445" width="0.2032" layer="21"/>
@@ -4428,7 +4428,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB" prefix="JP">
+<deviceset name="USB" prefix="J">
 <description>&lt;b&gt;USB Connectors&lt;/b&gt;
 &lt;p&gt;USB-B-PTH is fully proven SKU : PRT-00139/CONN-08278
 &lt;p&gt;USB-miniB is fully proven SKU : PRT-00587
@@ -4655,7 +4655,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </device>
 </devices>
 </deviceset>
-<deviceset name="M05X2" prefix="JP" uservalue="yes">
+<deviceset name="M05X2" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 5x2&lt;/b&gt;
 Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark Fun Electronics SKU: PRT-00778</description>
 <gates>
@@ -4817,7 +4817,7 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 </device>
 </devices>
 </deviceset>
-<deviceset name="M06" prefix="JP" uservalue="yes">
+<deviceset name="M06" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 6&lt;/b&gt;&lt;br&gt;
 Standard 6-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08094 with associated crimp pins and housings.&lt;p&gt;
 
@@ -5176,7 +5176,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </device>
 </devices>
 </deviceset>
-<deviceset name="M04" prefix="JP" uservalue="yes">
+<deviceset name="M04" prefix="J" uservalue="yes">
 <description>&lt;b&gt;Header 4&lt;/b&gt;
 Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08231 with associated crimp pins and housings. 1MM SMD Version SKU: PRT-10208</description>
 <gates>
@@ -5191,7 +5191,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09696" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="POLAR" package="MOLEX-1X4">
@@ -5237,7 +5239,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09696" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LOCK_LONGPADS" package="1X04_LOCK_LONGPADS">
@@ -5248,7 +5252,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09696" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="POLAR_LOCK" package="MOLEX-1X4_LOCK">
@@ -5281,7 +5287,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09696" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="1X04_NO_SILK" package="1X04_NO_SILK">
@@ -5292,7 +5300,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09696" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="JST-PTH" package="JST-4-PTH">
@@ -5396,12 +5406,14 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09696" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M02" prefix="JP" uservalue="yes">
+<deviceset name="M02" prefix="J" uservalue="yes">
 <description>Standard 2-pin 0.1" header. Use with &lt;br&gt;
 - straight break away headers ( PRT-00116)&lt;br&gt;
 - right angle break away headers (PRT-00553)&lt;br&gt;
@@ -5642,7 +5654,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="M13X2" prefix="JP" uservalue="yes">
+<deviceset name="M13X2" prefix="J" uservalue="yes">
 <description>0.1" spaced headers</description>
 <gates>
 <gate name="G$1" symbol="M13X2" x="0" y="0"/>
@@ -5683,7 +5695,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="M10X2" prefix="JP" uservalue="yes">
+<deviceset name="M10X2" prefix="J" uservalue="yes">
 <description>This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure you want to use this!  It is not only staggered on each line of header holes, but IT IS ALSO offset of the center point of the top and bottom lines by 5 mil.  This causes the headers to lock into place on the "standard" footprint on the LCD screen.  The extra squares on the tdocu layer are there simply to reference other pins (if you were to actually populate a longer header than ten long - this is what we do with the backpacks).</description>
 <gates>
 <gate name="G$1" symbol="M10X2" x="0" y="0"/>
@@ -5827,6 +5839,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </devices>
 </deviceset>
 <deviceset name="USD-SDIO-SOCKET" prefix="JP">
+<description>microSD Socket
+&lt;br&gt;&lt;br&gt;
+Push-push type uSD socket with full SDIO signal mapping. Spark Fun Electronics SKU : PRT-00127. tDoc lines correctly indicate media card edge positions when inserting (unlocked, locked, depressed). NOTE: CD1 and CD2 are connected internally, and short to ground when card is removed.</description>
 <gates>
 <gate name="G$1" symbol="USDCARD_SDIO" x="0" y="0"/>
 </gates>
@@ -5847,7 +5862,9 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-07820" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7961,7 +7978,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STAND-OFF" prefix="STANDOFF">
+<deviceset name="STAND-OFF" prefix="H">
 <description>&lt;b&gt;#4 Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
 <gates>
