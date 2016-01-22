@@ -21850,6 +21850,8 @@ Rebel - DIO-09553&lt;br&gt;
 <part name="J9" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3VA"/>
 <part name="J10" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3V"/>
 <part name="J11" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VIN"/>
+<part name="J12" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="A4"/>
+<part name="J13" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="A5"/>
 </parts>
 <sheets>
 <sheet>
@@ -21952,8 +21954,8 @@ VDDUTMII</text>
 <instance part="C12" gate="G$1" x="287.02" y="78.74"/>
 <instance part="GND13" gate="1" x="287.02" y="71.12"/>
 <instance part="R6" gate="G$1" x="248.92" y="78.74" rot="R90"/>
-<instance part="R7" gate="G$1" x="91.44" y="109.22" rot="R90"/>
-<instance part="SUPPLY3" gate="G$1" x="91.44" y="116.84"/>
+<instance part="R7" gate="G$1" x="86.36" y="109.22" rot="R90"/>
+<instance part="SUPPLY3" gate="G$1" x="86.36" y="116.84"/>
 <instance part="U2" gate="G$1" x="304.8" y="180.34"/>
 <instance part="GND14" gate="1" x="358.14" y="203.2"/>
 <instance part="C13" gate="G$1" x="358.14" y="215.9"/>
@@ -22021,7 +22023,7 @@ VDDUTMII</text>
 <instance part="C37" gate="G$1" x="254" y="149.86" rot="R90"/>
 <instance part="C38" gate="G$1" x="254" y="139.7" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="5.08" y="35.56"/>
-<instance part="D1" gate="G$1" x="91.44" y="99.06"/>
+<instance part="D1" gate="G$1" x="86.36" y="99.06"/>
 <instance part="JP5" gate="G$1" x="292.1" y="30.48"/>
 <instance part="J1" gate="G$1" x="25.4" y="22.86"/>
 <instance part="C39" gate="G$1" x="177.8" y="208.28"/>
@@ -22086,6 +22088,8 @@ VDDUTMII</text>
 <instance part="J9" gate="G$1" x="88.9" y="256.54"/>
 <instance part="J10" gate="G$1" x="93.98" y="215.9"/>
 <instance part="J11" gate="G$1" x="27.94" y="264.16"/>
+<instance part="J12" gate="G$1" x="96.52" y="109.22" rot="R180"/>
+<instance part="J13" gate="G$1" x="96.52" y="99.06" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -22842,7 +22846,7 @@ VDDUTMII</text>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-<wire x1="91.44" y1="116.84" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="116.84" x2="86.36" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
@@ -23075,8 +23079,8 @@ VDDUTMII</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA23"/>
-<wire x1="119.38" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="91.44" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -23874,7 +23878,7 @@ VDDUTMII</text>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="104.14" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="104.14" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -23986,6 +23990,22 @@ VDDUTMII</text>
 <wire x1="340.36" y1="170.18" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="114.3" x2="358.14" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA19"/>
+<pinref part="J12" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="109.22" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA20"/>
+<pinref part="J13" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="99.06" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
