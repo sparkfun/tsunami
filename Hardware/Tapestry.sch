@@ -11949,6 +11949,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="80.38" y="46.92"/>
 </polygon>
 </package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_LEDGER">
@@ -13074,6 +13080,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="40.16" y="23.55"/>
 </polygon>
 </symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LEDGER" prefix="FRAME">
@@ -13185,6 +13196,25 @@ logo. Default layer for the logo on the board is tSilk.</description>
 </technologies>
 </device>
 <device name="1_INCH" package="SFE_LOGO_NAME_FLAME_1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21852,6 +21882,8 @@ Rebel - DIO-09553&lt;br&gt;
 <part name="J11" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VIN"/>
 <part name="J12" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="A4"/>
 <part name="J13" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="A5"/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -21901,7 +21933,7 @@ VDDUTMII</text>
 <wire x1="40.64" y1="104.14" x2="40.64" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
 <text x="2.54" y="96.52" size="3.81" layer="97">Reset Switch</text>
 <text x="20.32" y="63.5" size="1.778" layer="97">S2 is optional, side-firing 6mm tact type.</text>
-<text x="7.62" y="228.6" size="2.54" layer="97">Vin range:
+<text x="5.08" y="226.06" size="3.81" layer="97">Vin range:
 5 to 15 VDC</text>
 </plain>
 <instances>
@@ -21995,7 +22027,7 @@ VDDUTMII</text>
 <instance part="TP1" gate="G$1" x="7.62" y="114.3"/>
 <instance part="GND21" gate="1" x="17.78" y="109.22"/>
 <instance part="GND23" gate="1" x="365.76" y="40.64"/>
-<instance part="SUPPLY7" gate="G$1" x="345.44" y="58.42" rot="MR0"/>
+<instance part="SUPPLY7" gate="G$1" x="345.44" y="63.5" rot="MR0"/>
 <instance part="GND24" gate="1" x="401.32" y="208.28"/>
 <instance part="C33" gate="G$1" x="297.18" y="78.74"/>
 <instance part="GND25" gate="1" x="203.2" y="7.62"/>
@@ -22078,7 +22110,7 @@ VDDUTMII</text>
 <instance part="R27" gate="G$1" x="30.48" y="81.28"/>
 <instance part="R28" gate="G$1" x="40.64" y="88.9" rot="R90"/>
 <instance part="S1" gate="G$1" x="12.7" y="88.9"/>
-<instance part="JP2" gate="G$1" x="375.92" y="66.04"/>
+<instance part="JP2" gate="G$1" x="375.92" y="71.12"/>
 <instance part="J3" gate="G$1" x="358.14" y="144.78"/>
 <instance part="J4" gate="G$1" x="358.14" y="134.62"/>
 <instance part="J5" gate="G$1" x="358.14" y="124.46"/>
@@ -22090,6 +22122,8 @@ VDDUTMII</text>
 <instance part="J11" gate="G$1" x="27.94" y="264.16"/>
 <instance part="J12" gate="G$1" x="96.52" y="109.22" rot="R180"/>
 <instance part="J13" gate="G$1" x="96.52" y="99.06" rot="R180"/>
+<instance part="FD1" gate="G$1" x="429.26" y="20.32"/>
+<instance part="FD2" gate="G$1" x="429.26" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -22317,15 +22351,15 @@ VDDUTMII</text>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="365.76" y1="50.8" x2="365.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="55.88" x2="365.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="45.72" x2="365.76" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="50.8" x2="386.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="55.88" x2="386.08" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="45.72" x2="365.76" y2="45.72" width="0.1524" layer="91"/>
 <junction x="365.76" y="45.72"/>
 <pinref part="JP2" gate="G$1" pin="25"/>
-<wire x1="365.76" y1="50.8" x2="368.3" y2="50.8" width="0.2032" layer="91"/>
+<wire x1="365.76" y1="55.88" x2="368.3" y2="55.88" width="0.2032" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="26"/>
-<wire x1="383.54" y1="50.8" x2="386.08" y2="50.8" width="0.2032" layer="91"/>
+<wire x1="383.54" y1="55.88" x2="386.08" y2="55.88" width="0.2032" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
@@ -22850,12 +22884,12 @@ VDDUTMII</text>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="345.44" y1="58.42" x2="345.44" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="55.88" x2="365.76" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="55.88" x2="368.3" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="53.34" x2="365.76" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="53.34" x2="365.76" y2="55.88" width="0.1524" layer="91"/>
-<junction x="365.76" y="55.88"/>
+<wire x1="345.44" y1="63.5" x2="345.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="60.96" x2="365.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="60.96" x2="368.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="58.42" x2="365.76" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="58.42" x2="365.76" y2="60.96" width="0.1524" layer="91"/>
+<junction x="365.76" y="60.96"/>
 <pinref part="JP2" gate="G$1" pin="21"/>
 <pinref part="JP2" gate="G$1" pin="23"/>
 </segment>
@@ -23300,8 +23334,8 @@ VDDUTMII</text>
 <label x="203.2" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="360.68" y1="60.96" x2="368.3" y2="60.96" width="0.1524" layer="91"/>
-<label x="360.68" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="360.68" y1="66.04" x2="368.3" y2="66.04" width="0.1524" layer="91"/>
+<label x="360.68" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="17"/>
 </segment>
 </net>
@@ -23312,8 +23346,8 @@ VDDUTMII</text>
 <label x="203.2" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="58.42" x2="360.68" y2="58.42" width="0.1524" layer="91"/>
-<label x="360.68" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="63.5" x2="360.68" y2="63.5" width="0.1524" layer="91"/>
+<label x="360.68" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="19"/>
 </segment>
 </net>
@@ -23359,8 +23393,8 @@ VDDUTMII</text>
 <label x="203.2" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="60.96" x2="388.62" y2="60.96" width="0.1524" layer="91"/>
-<label x="388.62" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="66.04" x2="388.62" y2="66.04" width="0.1524" layer="91"/>
+<label x="388.62" y="66.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="18"/>
 </segment>
 </net>
@@ -23371,8 +23405,8 @@ VDDUTMII</text>
 <label x="203.2" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="58.42" x2="388.62" y2="58.42" width="0.1524" layer="91"/>
-<label x="388.62" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="63.5" x2="388.62" y2="63.5" width="0.1524" layer="91"/>
+<label x="388.62" y="63.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="20"/>
 </segment>
 </net>
@@ -23391,12 +23425,12 @@ VDDUTMII</text>
 <junction x="22.86" y="264.16"/>
 </segment>
 <segment>
-<wire x1="388.62" y1="55.88" x2="386.08" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="55.88" x2="383.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="55.88" x2="386.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="53.34" x2="383.54" y2="53.34" width="0.1524" layer="91"/>
-<label x="388.62" y="55.88" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<junction x="386.08" y="55.88"/>
+<wire x1="388.62" y1="60.96" x2="386.08" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="60.96" x2="383.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="60.96" x2="386.08" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="58.42" x2="383.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="388.62" y="60.96" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<junction x="386.08" y="60.96"/>
 <pinref part="JP2" gate="G$1" pin="24"/>
 <pinref part="JP2" gate="G$1" pin="22"/>
 </segment>
@@ -23586,8 +23620,8 @@ VDDUTMII</text>
 <label x="111.76" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="81.28" x2="360.68" y2="81.28" width="0.1524" layer="91"/>
-<label x="360.68" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="86.36" x2="360.68" y2="86.36" width="0.1524" layer="91"/>
+<label x="360.68" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -23598,8 +23632,8 @@ VDDUTMII</text>
 <label x="111.76" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="81.28" x2="388.62" y2="81.28" width="0.1524" layer="91"/>
-<label x="388.62" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="86.36" x2="388.62" y2="86.36" width="0.1524" layer="91"/>
+<label x="388.62" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -23610,8 +23644,8 @@ VDDUTMII</text>
 <label x="111.76" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="78.74" x2="360.68" y2="78.74" width="0.1524" layer="91"/>
-<label x="360.68" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="83.82" x2="360.68" y2="83.82" width="0.1524" layer="91"/>
+<label x="360.68" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -23622,8 +23656,8 @@ VDDUTMII</text>
 <label x="111.76" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="78.74" x2="388.62" y2="78.74" width="0.1524" layer="91"/>
-<label x="388.62" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="83.82" x2="388.62" y2="83.82" width="0.1524" layer="91"/>
+<label x="388.62" y="83.82" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -23634,8 +23668,8 @@ VDDUTMII</text>
 <label x="203.2" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="76.2" x2="360.68" y2="76.2" width="0.1524" layer="91"/>
-<label x="360.68" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="81.28" x2="360.68" y2="81.28" width="0.1524" layer="91"/>
+<label x="360.68" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
 </segment>
 </net>
@@ -23646,8 +23680,8 @@ VDDUTMII</text>
 <label x="203.2" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="76.2" x2="388.62" y2="76.2" width="0.1524" layer="91"/>
-<label x="388.62" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="81.28" x2="388.62" y2="81.28" width="0.1524" layer="91"/>
+<label x="388.62" y="81.28" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -23658,8 +23692,8 @@ VDDUTMII</text>
 <label x="203.2" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="73.66" x2="360.68" y2="73.66" width="0.1524" layer="91"/>
-<label x="360.68" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="78.74" x2="360.68" y2="78.74" width="0.1524" layer="91"/>
+<label x="360.68" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="7"/>
 </segment>
 </net>
@@ -23670,8 +23704,8 @@ VDDUTMII</text>
 <label x="203.2" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="73.66" x2="388.62" y2="73.66" width="0.1524" layer="91"/>
-<label x="388.62" y="73.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="78.74" x2="388.62" y2="78.74" width="0.1524" layer="91"/>
+<label x="388.62" y="78.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="8"/>
 </segment>
 </net>
@@ -23682,8 +23716,8 @@ VDDUTMII</text>
 <label x="203.2" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="71.12" x2="360.68" y2="71.12" width="0.1524" layer="91"/>
-<label x="360.68" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="76.2" x2="360.68" y2="76.2" width="0.1524" layer="91"/>
+<label x="360.68" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="9"/>
 </segment>
 </net>
@@ -23694,8 +23728,8 @@ VDDUTMII</text>
 <label x="203.2" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="71.12" x2="388.62" y2="71.12" width="0.1524" layer="91"/>
-<label x="388.62" y="71.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="76.2" x2="388.62" y2="76.2" width="0.1524" layer="91"/>
+<label x="388.62" y="76.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -23706,8 +23740,8 @@ VDDUTMII</text>
 <label x="203.2" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="68.58" x2="360.68" y2="68.58" width="0.1524" layer="91"/>
-<label x="360.68" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="73.66" x2="360.68" y2="73.66" width="0.1524" layer="91"/>
+<label x="360.68" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="11"/>
 </segment>
 </net>
@@ -23718,8 +23752,8 @@ VDDUTMII</text>
 <label x="203.2" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="68.58" x2="388.62" y2="68.58" width="0.1524" layer="91"/>
-<label x="388.62" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="73.66" x2="388.62" y2="73.66" width="0.1524" layer="91"/>
+<label x="388.62" y="73.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="12"/>
 </segment>
 </net>
@@ -23730,8 +23764,8 @@ VDDUTMII</text>
 <label x="203.2" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="66.04" x2="360.68" y2="66.04" width="0.1524" layer="91"/>
-<label x="360.68" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="71.12" x2="360.68" y2="71.12" width="0.1524" layer="91"/>
+<label x="360.68" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="13"/>
 </segment>
 </net>
@@ -23742,8 +23776,8 @@ VDDUTMII</text>
 <label x="203.2" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="66.04" x2="388.62" y2="66.04" width="0.1524" layer="91"/>
-<label x="388.62" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="71.12" x2="388.62" y2="71.12" width="0.1524" layer="91"/>
+<label x="388.62" y="71.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="14"/>
 </segment>
 </net>
@@ -23754,8 +23788,8 @@ VDDUTMII</text>
 <label x="203.2" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="368.3" y1="63.5" x2="360.68" y2="63.5" width="0.1524" layer="91"/>
-<label x="360.68" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="368.3" y1="68.58" x2="360.68" y2="68.58" width="0.1524" layer="91"/>
+<label x="360.68" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="15"/>
 </segment>
 </net>
@@ -23766,8 +23800,8 @@ VDDUTMII</text>
 <label x="203.2" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="63.5" x2="388.62" y2="63.5" width="0.1524" layer="91"/>
-<label x="388.62" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="383.54" y1="68.58" x2="388.62" y2="68.58" width="0.1524" layer="91"/>
+<label x="388.62" y="68.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="16"/>
 </segment>
 </net>
