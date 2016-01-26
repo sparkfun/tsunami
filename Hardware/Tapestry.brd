@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -2750,7 +2750,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="tapestry" package="LQFP100" value="ATSAMS70NXXA-AN" x="26.67" y="20.32" rot="R270"/>
+<element name="U1" library="tapestry" package="LQFP100" value="ATSAMS70NXXA-AN" x="26.67" y="20.32" rot="R270">
+<attribute name="PROD_ID" value="IC-13238" x="26.67" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-1.27" y="-31.75"/>
 <element name="JP1" library="SparkFun-Connectors" package="USB-B-MICRO-SMD_V03" value="USB-MICROB&quot;" x="1.905" y="15.24">
 <attribute name="PROD_ID" value="CONN-11752" x="1.905" y="15.24" size="1.778" layer="27" display="off"/>
@@ -2789,7 +2791,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" value="2.2uF" x="33.02" y="31.75" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="CAP-07888" x="33.02" y="31.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="0603-CAP" value="10uF" x="29.464" y="34.29" rot="R180"/>
+<element name="C7" library="SparkFun-Capacitors" package="0603-CAP" value="10uF" x="29.464" y="34.29" rot="R180">
+<attribute name="VALUE" value="10uF" x="29.464" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="CAP-11015" x="29.464" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="D3" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="MBRA140" x="45.72" y="5.08" rot="R270">
 <attribute name="PROD_ID" value="DIO-08053" x="45.72" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2850,7 +2855,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" value="330" x="2.54" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="RES-00818" x="2.54" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U2" library="tapestry" package="LQFP-48" value="AK4618VQSFE-PACKAGE" x="43.18" y="58.42"/>
+<element name="U2" library="tapestry" package="LQFP-48" value="AK4618VQSFE-PACKAGE" x="43.18" y="58.42">
+<attribute name="PROD_ID" value="IC-13239" x="43.18" y="58.42" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C13" library="SparkFun-Capacitors" package="0603-CAP" value="1.0uF" x="34.544" y="58.674" rot="R270">
 <attribute name="VALUE" value="1.0uF" x="34.544" y="58.674" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CAP-00868" x="34.544" y="58.674" size="1.778" layer="27" rot="R270" display="off"/>
