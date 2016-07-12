@@ -33441,8 +33441,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R28" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="J9" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3VA"/>
 <part name="J10" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3V"/>
-<part name="J12" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="A4"/>
-<part name="J13" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="A5"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
@@ -33727,8 +33725,6 @@ serial bridge.</text>
 <instance part="R28" gate="G$1" x="40.64" y="88.9" rot="R90"/>
 <instance part="J9" gate="G$1" x="101.6" y="266.7"/>
 <instance part="J10" gate="G$1" x="104.14" y="226.06"/>
-<instance part="J12" gate="G$1" x="172.72" y="129.54" rot="R180"/>
-<instance part="J13" gate="G$1" x="172.72" y="119.38" rot="R180"/>
 <instance part="FD1" gate="G$1" x="429.26" y="20.32"/>
 <instance part="FD2" gate="G$1" x="429.26" y="17.78"/>
 <instance part="LOGO2" gate="G$1" x="419.1" y="45.72"/>
@@ -34210,7 +34206,7 @@ serial bridge.</text>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="REGINPUTS" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="45.72" y1="208.28" x2="45.72" y2="231.14" width="0.1524" layer="91"/>
@@ -35076,22 +35072,6 @@ serial bridge.</text>
 <pinref part="S2" gate="G$1" pin="2"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA19"/>
-<pinref part="J12" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="129.54" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA20"/>
-<pinref part="J13" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$75" class="0">
@@ -36121,18 +36101,16 @@ connection to digital ground</text>
 <label x="373.38" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="396.24" y1="149.86" x2="401.32" y2="149.86" width="0.1524" layer="91"/>
-<label x="401.32" y="149.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="MIDI-OUT-PIN5" class="0">
 <segment>
 <pinref part="J11" gate="G$1" pin="4"/>
 <wire x1="370.84" y1="83.82" x2="373.38" y2="83.82" width="0.1524" layer="91"/>
 <label x="373.38" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R48" gate="G$1" pin="2"/>
+<wire x1="396.24" y1="149.86" x2="401.32" y2="149.86" width="0.1524" layer="91"/>
+<label x="401.32" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
