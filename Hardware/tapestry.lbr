@@ -862,7 +862,7 @@ Source: http://www.national.com/ds/DP/DP83848VYB.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATSAMS70NXXA-AN">
+<deviceset name="ATSAMS70NXXA-AN" prefix="U">
 <gates>
 <gate name="G$1" symbol="SAMS70_100" x="0" y="0"/>
 </gates>
@@ -978,7 +978,7 @@ Source: http://www.national.com/ds/DP/DP83848VYB.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AK4618VQ">
+<deviceset name="AK4618VQ" prefix="U">
 <gates>
 <gate name="G$1" symbol="AK4618" x="0" y="0"/>
 </gates>
@@ -1113,6 +1113,7 @@ Source: http://www.national.com/ds/DP/DP83848VYB.pdf</description>
 <attribute name="DKPART" value="887-2353-1-ND" constant="no"/>
 <attribute name="MFR" value="txc" constant="no"/>
 <attribute name="MFRPART" value="7B-11.2896MAAE-T" constant="no"/>
+<attribute name="PROD_ID" value="XTAL-13463" constant="no"/>
 <attribute name="VALUE" value="11.2896 MHz" constant="no"/>
 </technology>
 </technologies>
