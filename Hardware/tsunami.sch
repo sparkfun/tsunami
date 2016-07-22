@@ -21263,14 +21263,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R36" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="JP3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="NO_SILK" value="JUMPER-PAD-2-NC_BY_TRACENO_SILK"/>
+<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="NO_SILK" value="JUMPER-PAD-2-NC_BY_TRACENO_SILK"/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J14" library="SparkFun-Connectors" deviceset="M10X2" device="" value="AUDIO I/O"/>
 <part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="AOUT5L"/>
 <part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="AOUT5R"/>
-<part name="JP2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="JP2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="NO_SILK" value="JUMPER-PAD-2-NC_BY_TRACENO_SILK"/>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C39" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="C42" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
@@ -22935,9 +22935,17 @@ the plane crossing.</text>
 5-pin DIN connectors.  Not all 5 pins are 
 connected.  Connect the pads below to the 
 pins indicated.</text>
-<text x="376.174" y="81.28" size="1.27" layer="97" align="center-left">MIDI-OUT-PIN2</text>
+<text x="376.174" y="83.82" size="1.27" layer="97" align="center-left">MIDI-OUT-PIN2</text>
 <text x="2.54" y="195.58" size="1.778" layer="97">Codec is at I2C 
 address 0x20</text>
+<text x="340.36" y="66.04" size="2.54" layer="97" font="vector" align="top-left">MIDI inputs are not grounded.  MIDI 
+outputs are, with the shield of the 
+cable tied to Pin 2 of the DIN.
+
+DIN-5 connectors have an odd 
+pin-ordering -- pin 2 is between 
+4 and 5, as reflected in the 
+connector above.  </text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="119.38" y="162.56"/>
@@ -23256,12 +23264,12 @@ address 0x20</text>
 <junction x="355.6" y="149.86"/>
 </segment>
 <segment>
-<pinref part="J15" gate="G$1" pin="5"/>
-<wire x1="370.84" y1="81.28" x2="373.38" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND51" gate="1" pin="GND"/>
-<wire x1="373.38" y1="76.2" x2="373.38" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="81.28" x2="375.92" y2="81.28" width="0.1524" layer="91"/>
-<junction x="373.38" y="81.28"/>
+<wire x1="373.38" y1="76.2" x2="373.38" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="83.82" x2="375.92" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="4"/>
+<wire x1="370.84" y1="83.82" x2="373.38" y2="83.82" width="0.1524" layer="91"/>
+<junction x="373.38" y="83.82"/>
 </segment>
 </net>
 <net name="3.3V_A" class="0">
@@ -23885,9 +23893,9 @@ address 0x20</text>
 </net>
 <net name="MIDI-OUT-PIN5" class="0">
 <segment>
-<pinref part="J15" gate="G$1" pin="4"/>
-<wire x1="370.84" y1="83.82" x2="375.92" y2="83.82" width="0.1524" layer="91"/>
-<label x="375.92" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="370.84" y1="81.28" x2="375.92" y2="81.28" width="0.1524" layer="91"/>
+<label x="375.92" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="J15" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="R46" gate="G$1" pin="2"/>
