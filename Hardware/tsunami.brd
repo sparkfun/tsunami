@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4330,7 +4330,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="39.37" y="62.23" extent="1-16" drill="0.381"/>
 <via x="30.734" y="65.278" extent="1-16" drill="0.381"/>
 <via x="30.734" y="72.898" extent="1-16" drill="0.381"/>
-<via x="35.56" y="68.072" extent="1-16" drill="0.381"/>
+<via x="35.56" y="66.802" extent="1-16" drill="0.381"/>
 <via x="39.624" y="72.898" extent="1-16" drill="0.381"/>
 <via x="46.736" y="72.898" extent="1-16" drill="0.381"/>
 <via x="53.848" y="72.898" extent="1-16" drill="0.381"/>
@@ -4494,6 +4494,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="8.128" y="19.558" extent="1-16" drill="0.381"/>
 <via x="9.652" y="16.002" extent="1-16" drill="0.381"/>
 <contactref element="J15" pad="4"/>
+<via x="41.275" y="19.05" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="N$1">
 <contactref element="C7" pad="1"/>
