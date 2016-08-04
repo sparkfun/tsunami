@@ -17418,8 +17418,8 @@ serial bridge.</text>
 <instance part="C19" gate="G$1" x="261.62" y="198.12"/>
 <instance part="C23" gate="G$1" x="289.56" y="200.66"/>
 <instance part="C24" gate="G$1" x="289.56" y="177.8"/>
-<instance part="GND28" gate="1" x="261.62" y="193.04"/>
-<instance part="GND32" gate="1" x="289.56" y="195.58"/>
+<instance part="GND28" gate="1" x="261.62" y="190.5"/>
+<instance part="GND32" gate="1" x="289.56" y="193.04"/>
 <instance part="GND33" gate="1" x="289.56" y="170.18"/>
 <instance part="GND19" gate="1" x="203.2" y="203.2"/>
 <instance part="C11" gate="G$1" x="203.2" y="210.82"/>
@@ -17569,10 +17569,12 @@ serial bridge.</text>
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="261.62" y1="193.04" x2="261.62" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="289.56" y1="195.58" x2="289.56" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
@@ -17998,7 +18000,7 @@ serial bridge.</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="165.1" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
 <junction x="50.8" y="165.1"/>
-<wire x1="60.96" y1="165.1" x2="63.5" y2="165.1" width="0.2032" layer="91"/>
+<wire x1="60.96" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
 <junction x="60.96" y="165.1"/>
 <label x="63.5" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -18209,12 +18211,12 @@ serial bridge.</text>
 <wire x1="25.4" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="162.56" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="167.64" x2="63.5" y2="167.64" width="0.1524" layer="91"/>
-<label x="63.5" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="HSDM"/>
 <wire x1="274.32" y1="83.82" x2="279.4" y2="83.82" width="0.1524" layer="91"/>
-<label x="279.4" y="83.82" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="HSDP" class="0">
@@ -18223,19 +18225,19 @@ serial bridge.</text>
 <wire x1="25.4" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="165.1" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="170.18" x2="63.5" y2="170.18" width="0.1524" layer="91"/>
-<label x="63.5" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="HSDP"/>
 <wire x1="274.32" y1="86.36" x2="279.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="279.4" y="86.36" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SDD0" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PA30"/>
 <wire x1="195.58" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
-<label x="187.96" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="154.94" x2="373.38" y2="154.94" width="0.1524" layer="91"/>
@@ -18251,7 +18253,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA31"/>
 <wire x1="195.58" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
-<label x="187.96" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="152.4" x2="378.46" y2="152.4" width="0.1524" layer="91"/>
@@ -18267,7 +18269,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA26"/>
 <wire x1="195.58" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
-<label x="187.96" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="170.18" x2="363.22" y2="170.18" width="0.1524" layer="91"/>
@@ -18283,7 +18285,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA27"/>
 <wire x1="195.58" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
-<label x="187.96" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="167.64" x2="368.3" y2="167.64" width="0.1524" layer="91"/>
@@ -18299,7 +18301,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA25"/>
 <wire x1="195.58" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
-<label x="187.96" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="160.02" x2="353.06" y2="160.02" width="0.1524" layer="91"/>
@@ -18311,7 +18313,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA28"/>
 <wire x1="187.96" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<label x="187.96" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="165.1" x2="383.54" y2="165.1" width="0.1524" layer="91"/>
@@ -18356,7 +18358,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA03"/>
 <wire x1="195.58" y1="162.56" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
-<label x="170.18" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="170.18" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="165.1" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
@@ -18367,7 +18369,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA04"/>
 <wire x1="195.58" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
-<label x="170.18" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="170.18" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="165.1" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
@@ -18378,28 +18380,28 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB01"/>
 <wire x1="195.58" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
-<label x="187.96" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LRCK" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PB00"/>
 <wire x1="195.58" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
-<label x="187.96" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MCLK" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PA18"/>
 <wire x1="195.58" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<label x="187.96" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWDIO/TMS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PB06"/>
 <wire x1="195.58" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-<label x="187.96" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="71.12" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
@@ -18419,7 +18421,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB07"/>
 <wire x1="195.58" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
-<label x="187.96" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
@@ -18439,7 +18441,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB05"/>
 <wire x1="195.58" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
-<label x="187.96" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="73.66" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
@@ -18455,7 +18457,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB04"/>
 <wire x1="195.58" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
-<label x="187.96" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
@@ -18471,7 +18473,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="NRST"/>
 <wire x1="274.32" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="279.4" y="78.74" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="45.72" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
@@ -18505,14 +18507,14 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA01"/>
 <wire x1="195.58" y1="167.64" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
-<label x="193.04" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="193.04" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PD28"/>
 <wire x1="274.32" y1="99.06" x2="279.4" y2="99.06" width="0.1524" layer="91"/>
-<label x="279.4" y="99.06" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="RXI"/>
@@ -18524,7 +18526,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD30"/>
 <wire x1="274.32" y1="93.98" x2="279.4" y2="93.98" width="0.1524" layer="91"/>
-<label x="279.4" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="TXO"/>
@@ -18536,28 +18538,28 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD26"/>
 <wire x1="274.32" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
-<label x="279.4" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="TDMI" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PA10"/>
 <wire x1="195.58" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
-<label x="193.04" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="193.04" y="144.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MIN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PD15"/>
 <wire x1="274.32" y1="132.08" x2="279.4" y2="132.08" width="0.1524" layer="91"/>
-<label x="279.4" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="MOUT" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PD16"/>
 <wire x1="274.32" y1="129.54" x2="279.4" y2="129.54" width="0.1524" layer="91"/>
-<label x="279.4" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -18580,7 +18582,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA00"/>
 <wire x1="195.58" y1="170.18" x2="193.04" y2="170.18" width="0.1524" layer="91"/>
-<label x="193.04" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="193.04" y="170.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="15.24" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
@@ -18597,7 +18599,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB02"/>
 <wire x1="195.58" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
-<label x="187.96" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UIA2" class="0">
@@ -18609,7 +18611,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB03"/>
 <wire x1="195.58" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
-<label x="187.96" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="78.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UIA3" class="0">
@@ -18621,7 +18623,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA21"/>
 <wire x1="195.58" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
-<label x="187.96" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UID1" class="0">
@@ -18632,7 +18634,7 @@ serial bridge.</text>
 </segment>
 <segment>
 <wire x1="274.32" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
-<label x="279.4" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="PD12"/>
 </segment>
 </net>
@@ -18644,7 +18646,7 @@ serial bridge.</text>
 </segment>
 <segment>
 <wire x1="274.32" y1="142.24" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
-<label x="279.4" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="PD11"/>
 </segment>
 </net>
@@ -18657,7 +18659,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD09"/>
 <wire x1="274.32" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
-<label x="279.4" y="147.32" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID4" class="0">
@@ -18669,7 +18671,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD08"/>
 <wire x1="274.32" y1="149.86" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
-<label x="279.4" y="149.86" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID5" class="0">
@@ -18681,7 +18683,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD07"/>
 <wire x1="274.32" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
-<label x="279.4" y="152.4" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID6" class="0">
@@ -18693,7 +18695,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD06"/>
 <wire x1="274.32" y1="154.94" x2="279.4" y2="154.94" width="0.1524" layer="91"/>
-<label x="279.4" y="154.94" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID7" class="0">
@@ -18705,7 +18707,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD05"/>
 <wire x1="274.32" y1="157.48" x2="279.4" y2="157.48" width="0.1524" layer="91"/>
-<label x="279.4" y="157.48" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID8" class="0">
@@ -18717,7 +18719,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD04"/>
 <wire x1="274.32" y1="160.02" x2="279.4" y2="160.02" width="0.1524" layer="91"/>
-<label x="279.4" y="160.02" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID9" class="0">
@@ -18729,7 +18731,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD03"/>
 <wire x1="274.32" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
-<label x="279.4" y="162.56" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID11" class="0">
@@ -18741,7 +18743,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD01"/>
 <wire x1="274.32" y1="167.64" x2="279.4" y2="167.64" width="0.1524" layer="91"/>
-<label x="279.4" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -18775,7 +18777,7 @@ serial bridge.</text>
 <wire x1="60.96" y1="152.4" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="147.32" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
-<label x="66.04" y="149.86" size="1.27" layer="95" xref="yes"/>
+<label x="66.04" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 <junction x="60.96" y="149.86"/>
 </segment>
 <segment>
@@ -18864,7 +18866,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA17"/>
 <wire x1="195.58" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
-<label x="187.96" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="UID12" class="0">
@@ -18876,7 +18878,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD00"/>
 <wire x1="274.32" y1="170.18" x2="279.4" y2="170.18" width="0.1524" layer="91"/>
-<label x="279.4" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="UID10" class="0">
@@ -18888,7 +18890,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD02"/>
 <wire x1="274.32" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
-<label x="279.4" y="165.1" size="1.27" layer="95" xref="yes"/>
+<label x="279.4" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -18908,7 +18910,7 @@ serial bridge.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PA22"/>
 <wire x1="195.58" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
-<label x="187.96" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="187.96" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="S4" gate="G$1" pin="2"/>
@@ -18960,7 +18962,6 @@ serial bridge.</text>
 <wire x1="101.6" y1="264.16" x2="96.52" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="264.16" x2="96.52" y2="269.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VCCA"/>
-<junction x="101.6" y="271.78"/>
 <junction x="96.52" y="269.24"/>
 <wire x1="96.52" y1="269.24" x2="96.52" y2="271.78" width="0.1524" layer="91"/>
 </segment>
@@ -19013,7 +19014,7 @@ connector above.  </text>
 <instance part="GND45" gate="1" x="142.24" y="198.12"/>
 <instance part="C36" gate="G$1" x="142.24" y="210.82"/>
 <instance part="C37" gate="G$1" x="152.4" y="213.36"/>
-<instance part="C33" gate="G$1" x="124.46" y="210.82" rot="R90"/>
+<instance part="C33" gate="G$1" x="121.92" y="210.82" rot="R90"/>
 <instance part="C35" gate="G$1" x="132.08" y="210.82"/>
 <instance part="C38" gate="G$1" x="162.56" y="213.36"/>
 <instance part="GND44" gate="1" x="119.38" y="96.52"/>
@@ -19165,11 +19166,9 @@ connector above.  </text>
 <wire x1="203.2" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="93.98" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="101.6" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
 <junction x="198.12" y="93.98"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="99.06" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
-<junction x="198.12" y="99.06"/>
 </segment>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
@@ -19242,6 +19241,7 @@ connector above.  </text>
 <wire x1="152.4" y1="210.82" x2="152.4" y2="208.28" width="0.1524" layer="91"/>
 <junction x="152.4" y="208.28"/>
 <pinref part="C33" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="127" y1="210.82" x2="127" y2="193.04" width="0.1524" layer="91"/>
 <junction x="127" y="193.04"/>
 <pinref part="C38" gate="G$1" pin="2"/>
@@ -19425,10 +19425,10 @@ connector above.  </text>
 <segment>
 <pinref part="U4" gate="G$1" pin="REGO"/>
 <wire x1="124.46" y1="187.96" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="205.74" x2="116.84" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="205.74" x2="114.3" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="C33" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="205.74" x2="116.84" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="210.82" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="205.74" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="210.82" x2="116.84" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
