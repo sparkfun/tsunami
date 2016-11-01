@@ -154,7 +154,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="tapestry">
 <packages>
@@ -17326,7 +17326,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SIDE_EZ" value="DNS"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="DEBUG"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="!PLAYING"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="PLAYING"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" value="Reset"/>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" value="User"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="VDC-IN"/>
@@ -17346,7 +17346,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <wire x1="431.8" y1="119.38" x2="330.2" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <text x="335.28" y="7.62" size="2.54" layer="94" font="vector">Jamie Robertson &amp; Byron Jacquot</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V02</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V10</text>
 <text x="249.428" y="236.728" size="1.778" layer="97">Near each VDDCORE pin</text>
 <text x="216.408" y="236.728" size="1.778" layer="97">Near each VDDIO pin</text>
 <text x="175.768" y="218.948" size="1.778" layer="97">Near
@@ -17396,7 +17396,7 @@ serial bridge.</text>
 <wire x1="431.8" y1="215.9" x2="330.2" y2="215.9" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="63.5" y1="58.42" x2="63.5" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
 <text x="66.04" y="96.52" size="3.81" layer="97" font="vector">User Switch</text>
-<text x="152.4" y="137.16" size="2.54" layer="97" font="vector">J8 is active low
+<text x="152.4" y="137.16" size="2.54" layer="97" font="vector">J8 is active high
 "playing" indicator.</text>
 <text x="68.58" y="60.96" size="1.778" layer="97">S4 is optional, side-firing 6mm tact type.</text>
 </plain>
@@ -18980,7 +18980,7 @@ the plane crossing.</text>
 <text x="342.9" y="264.16" size="5.08" layer="97" font="vector">MIDI IN</text>
 <text x="347.98" y="185.42" size="5.08" layer="97" font="vector">MIDI OUT</text>
 <text x="335.28" y="7.62" size="2.54" layer="94" font="vector">Jamie Robertson &amp; Byron Jacquot</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V02</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V10</text>
 <wire x1="330.2" y1="279.4" x2="330.2" y2="198.12" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="330.2" y1="198.12" x2="330.2" y2="127" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="330.2" y1="127" x2="330.2" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
