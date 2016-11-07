@@ -17240,7 +17240,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Y1" library="tapestry" deviceset="CRYSTAL-11.2896" device="" value="11.2896 MHz"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U4" library="tapestry" deviceset="AK4618VQ" device="SFE-PACKAGE" value="AK4618VQSFE-PACKAGE"/>
+<part name="U4" library="tapestry" deviceset="AK4618VQ" device="SFE-PACKAGE" value="AK4618VQ"/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="C37" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
