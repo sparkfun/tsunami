@@ -17441,7 +17441,7 @@ serial bridge.</text>
 <instance part="R21" gate="G$1" x="373.38" y="177.8" rot="R90"/>
 <instance part="R22" gate="G$1" x="378.46" y="185.42" rot="R90"/>
 <instance part="R23" gate="G$1" x="383.54" y="177.8" rot="R90"/>
-<instance part="SUPPLY9" gate="G$1" x="363.22" y="198.12"/>
+<instance part="SUPPLY9" gate="G$1" x="358.14" y="198.12"/>
 <instance part="C27" gate="G$1" x="396.24" y="187.96"/>
 <instance part="GND38" gate="1" x="396.24" y="177.8"/>
 <instance part="R18" gate="G$1" x="358.14" y="185.42" rot="R90"/>
@@ -18102,7 +18102,7 @@ serial bridge.</text>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="363.22" y1="182.88" x2="363.22" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="363.22" y1="195.58" x2="363.22" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="195.58" x2="358.14" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="195.58" x2="368.3" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="195.58" x2="373.38" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="195.58" x2="378.46" y2="195.58" width="0.1524" layer="91"/>
@@ -18134,6 +18134,7 @@ serial bridge.</text>
 <wire x1="406.4" y1="195.58" x2="406.4" y2="193.04" width="0.1524" layer="91"/>
 <junction x="396.24" y="195.58"/>
 <pinref part="J12" gate="G$1" pin="VCC"/>
+<junction x="358.14" y="195.58"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -19143,7 +19144,8 @@ connector above.  </text>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="93.98" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
@@ -19169,6 +19171,7 @@ connector above.  </text>
 <junction x="198.12" y="93.98"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="99.06" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
+<junction x="205.74" y="93.98"/>
 </segment>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
