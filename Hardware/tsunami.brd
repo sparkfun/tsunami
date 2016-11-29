@@ -161,7 +161,7 @@
 <wire x1="74.93" y1="73.66" x2="0" y2="73.66" width="0.2032" layer="20"/>
 <wire x1="0" y1="73.66" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="29.21" y="-31.75" size="1.778" layer="51" font="vector" ratio="10">Jamie Robertson &amp; Byron Jacquot</text>
-<text x="10.922" y="70.612" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="10.922" y="70.612" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="38.608" y="68.58" size="3.81" layer="21" font="vector" ratio="15" align="bottom-center">Tsunami</text>
 <text x="38.1" y="66.548" size="1.4224" layer="21" font="vector" ratio="15" align="bottom-center">Super WAV Trigger</text>
 <text x="67.31" y="69.85" size="1.27" layer="21" font="vector" ratio="15" align="center-right">1L</text>

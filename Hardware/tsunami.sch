@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17346,7 +17346,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <wire x1="431.8" y1="119.38" x2="330.2" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <text x="335.28" y="7.62" size="2.54" layer="94" font="vector">Jamie Robertson &amp; Byron Jacquot</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V10</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">V11</text>
 <text x="249.428" y="236.728" size="1.778" layer="97">Near each VDDCORE pin</text>
 <text x="216.408" y="236.728" size="1.778" layer="97">Near each VDDIO pin</text>
 <text x="175.768" y="218.948" size="1.778" layer="97">Near

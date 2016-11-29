@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27,9 +27,9 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -160,7 +160,7 @@
 <wire x1="84.328" y1="6.858" x2="84.328" y2="80.518" width="0.2032" layer="20"/>
 <wire x1="84.328" y1="80.518" x2="9.398" y2="80.518" width="0.2032" layer="20"/>
 <wire x1="9.398" y1="80.518" x2="9.398" y2="6.858" width="0.2032" layer="20"/>
-<text x="20.32" y="77.47" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="20.32" y="77.47" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="48.006" y="75.438" size="3.81" layer="21" font="vector" ratio="15" align="bottom-center">Tsunami</text>
 <text x="47.498" y="73.406" size="1.4224" layer="21" font="vector" ratio="15" align="bottom-center">Super WAV Trigger</text>
 <text x="76.708" y="76.708" size="1.27" layer="21" font="vector" ratio="15" align="center-right">1L</text>
@@ -272,7 +272,7 @@ VDC</text>
 <text x="24.638" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="29.718" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="27.178" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
-<text x="32.258" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
+<text x="34.798" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
 <text x="26.162" y="75.692" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">IN</text>
 <text x="32.258" y="75.692" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">OUT</text>
 <wire x1="23.368" y1="74.676" x2="23.876" y2="74.168" width="0.2032" layer="21"/>
@@ -284,7 +284,7 @@ VDC</text>
 <wire x1="73.66" y1="24.13" x2="73.66" y2="9.906" width="0.2032" layer="21"/>
 <text x="23.241" y="10.668" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">FTDI</text>
 <text x="24.638" y="35.052" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">PLAYING</text>
-<text x="34.798" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
+<text x="32.258" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
 <wire x1="75.946" y1="9.398" x2="74.168" y2="9.398" width="0.2032" layer="21"/>
 <wire x1="74.168" y1="9.398" x2="73.66" y2="9.906" width="0.2032" layer="21"/>
 <wire x1="75.946" y1="50.038" x2="74.168" y2="50.038" width="0.2032" layer="21"/>
@@ -325,7 +325,7 @@ VDC</text>
 <text x="29.464" y="73.66" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">MIDI</text>
 <text x="24.638" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
 <text x="29.464" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
-<text x="32.004" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
+<text x="34.544" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="26.924" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="25.908" y="75.692" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IN</text>
 <text x="32.258" y="75.692" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
@@ -333,7 +333,7 @@ VDC</text>
 <wire x1="35.56" y1="74.168" x2="31.242" y2="74.168" width="0.2032" layer="22"/>
 <wire x1="27.94" y1="74.168" x2="23.876" y2="74.168" width="0.2032" layer="22"/>
 <wire x1="23.876" y1="74.168" x2="23.368" y2="74.676" width="0.2032" layer="22"/>
-<text x="34.798" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
+<text x="32.258" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
 <wire x1="82.804" y1="49.53" x2="82.804" y2="31.75" width="0.2032" layer="22"/>
 <wire x1="82.296" y1="50.038" x2="82.804" y2="49.53" width="0.2032" layer="22"/>
 <wire x1="82.296" y1="50.038" x2="81.788" y2="50.038" width="0.2032" layer="22"/>
@@ -362,7 +362,7 @@ VDC</text>
 <wire x1="162.306" y1="6.858" x2="162.306" y2="80.518" width="0.2032" layer="20"/>
 <wire x1="162.306" y1="80.518" x2="87.376" y2="80.518" width="0.2032" layer="20"/>
 <wire x1="87.376" y1="80.518" x2="87.376" y2="6.858" width="0.2032" layer="20"/>
-<text x="98.298" y="77.47" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="98.298" y="77.47" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="125.984" y="75.438" size="3.81" layer="21" font="vector" ratio="15" align="bottom-center">Tsunami</text>
 <text x="125.476" y="73.406" size="1.4224" layer="21" font="vector" ratio="15" align="bottom-center">Super WAV Trigger</text>
 <text x="154.686" y="76.708" size="1.27" layer="21" font="vector" ratio="15" align="center-right">1L</text>
@@ -474,7 +474,6 @@ VDC</text>
 <text x="102.616" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="107.696" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="105.156" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
-<text x="110.236" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
 <text x="104.14" y="75.692" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">IN</text>
 <text x="110.236" y="75.692" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">OUT</text>
 <wire x1="101.346" y1="74.676" x2="101.854" y2="74.168" width="0.2032" layer="21"/>
@@ -486,7 +485,6 @@ VDC</text>
 <wire x1="151.638" y1="24.13" x2="151.638" y2="9.906" width="0.2032" layer="21"/>
 <text x="101.219" y="10.668" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">FTDI</text>
 <text x="102.616" y="35.052" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">PLAYING</text>
-<text x="112.776" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
 <wire x1="153.924" y1="9.398" x2="152.146" y2="9.398" width="0.2032" layer="21"/>
 <wire x1="152.146" y1="9.398" x2="151.638" y2="9.906" width="0.2032" layer="21"/>
 <wire x1="153.924" y1="50.038" x2="152.146" y2="50.038" width="0.2032" layer="21"/>
@@ -527,7 +525,6 @@ VDC</text>
 <text x="107.442" y="73.66" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">MIDI</text>
 <text x="102.616" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
 <text x="107.442" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
-<text x="109.982" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="104.902" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="103.886" y="75.692" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IN</text>
 <text x="110.236" y="75.692" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
@@ -535,7 +532,6 @@ VDC</text>
 <wire x1="113.538" y1="74.168" x2="109.22" y2="74.168" width="0.2032" layer="22"/>
 <wire x1="105.918" y1="74.168" x2="101.854" y2="74.168" width="0.2032" layer="22"/>
 <wire x1="101.854" y1="74.168" x2="101.346" y2="74.676" width="0.2032" layer="22"/>
-<text x="112.776" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
 <wire x1="160.782" y1="49.53" x2="160.782" y2="31.75" width="0.2032" layer="22"/>
 <wire x1="160.274" y1="50.038" x2="160.782" y2="49.53" width="0.2032" layer="22"/>
 <wire x1="160.274" y1="50.038" x2="159.766" y2="50.038" width="0.2032" layer="22"/>
@@ -564,7 +560,7 @@ VDC</text>
 <wire x1="240.284" y1="6.858" x2="240.284" y2="80.518" width="0.2032" layer="20"/>
 <wire x1="240.284" y1="80.518" x2="165.354" y2="80.518" width="0.2032" layer="20"/>
 <wire x1="165.354" y1="80.518" x2="165.354" y2="6.858" width="0.2032" layer="20"/>
-<text x="176.276" y="77.47" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="176.276" y="77.47" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="203.962" y="75.438" size="3.81" layer="21" font="vector" ratio="15" align="bottom-center">Tsunami</text>
 <text x="203.454" y="73.406" size="1.4224" layer="21" font="vector" ratio="15" align="bottom-center">Super WAV Trigger</text>
 <text x="232.664" y="76.708" size="1.27" layer="21" font="vector" ratio="15" align="center-right">1L</text>
@@ -676,7 +672,6 @@ VDC</text>
 <text x="180.594" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="185.674" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="183.134" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
-<text x="188.214" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
 <text x="182.118" y="75.692" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">IN</text>
 <text x="188.214" y="75.692" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">OUT</text>
 <wire x1="179.324" y1="74.676" x2="179.832" y2="74.168" width="0.2032" layer="21"/>
@@ -688,7 +683,6 @@ VDC</text>
 <wire x1="229.616" y1="24.13" x2="229.616" y2="9.906" width="0.2032" layer="21"/>
 <text x="179.197" y="10.668" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">FTDI</text>
 <text x="180.594" y="35.052" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">PLAYING</text>
-<text x="190.754" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
 <wire x1="231.902" y1="9.398" x2="230.124" y2="9.398" width="0.2032" layer="21"/>
 <wire x1="230.124" y1="9.398" x2="229.616" y2="9.906" width="0.2032" layer="21"/>
 <wire x1="231.902" y1="50.038" x2="230.124" y2="50.038" width="0.2032" layer="21"/>
@@ -729,7 +723,6 @@ VDC</text>
 <text x="185.42" y="73.66" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">MIDI</text>
 <text x="180.594" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
 <text x="185.42" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
-<text x="187.96" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="182.88" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="181.864" y="75.692" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IN</text>
 <text x="188.214" y="75.692" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
@@ -737,7 +730,6 @@ VDC</text>
 <wire x1="191.516" y1="74.168" x2="187.198" y2="74.168" width="0.2032" layer="22"/>
 <wire x1="183.896" y1="74.168" x2="179.832" y2="74.168" width="0.2032" layer="22"/>
 <wire x1="179.832" y1="74.168" x2="179.324" y2="74.676" width="0.2032" layer="22"/>
-<text x="190.754" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
 <wire x1="238.76" y1="49.53" x2="238.76" y2="31.75" width="0.2032" layer="22"/>
 <wire x1="238.252" y1="50.038" x2="238.76" y2="49.53" width="0.2032" layer="22"/>
 <wire x1="238.252" y1="50.038" x2="237.744" y2="50.038" width="0.2032" layer="22"/>
@@ -766,7 +758,7 @@ VDC</text>
 <wire x1="84.328" y1="81.026" x2="84.328" y2="154.686" width="0.2032" layer="20"/>
 <wire x1="84.328" y1="154.686" x2="9.398" y2="154.686" width="0.2032" layer="20"/>
 <wire x1="9.398" y1="154.686" x2="9.398" y2="81.026" width="0.2032" layer="20"/>
-<text x="20.32" y="151.638" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="20.32" y="151.638" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="48.006" y="149.606" size="3.81" layer="21" font="vector" ratio="15" align="bottom-center">Tsunami</text>
 <text x="47.498" y="147.574" size="1.4224" layer="21" font="vector" ratio="15" align="bottom-center">Super WAV Trigger</text>
 <text x="76.708" y="150.876" size="1.27" layer="21" font="vector" ratio="15" align="center-right">1L</text>
@@ -878,7 +870,6 @@ VDC</text>
 <text x="24.638" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="29.718" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="27.178" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
-<text x="32.258" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
 <text x="26.162" y="149.86" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">IN</text>
 <text x="32.258" y="149.86" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">OUT</text>
 <wire x1="23.368" y1="148.844" x2="23.876" y2="148.336" width="0.2032" layer="21"/>
@@ -890,7 +881,6 @@ VDC</text>
 <wire x1="73.66" y1="98.298" x2="73.66" y2="84.074" width="0.2032" layer="21"/>
 <text x="23.241" y="84.836" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">FTDI</text>
 <text x="24.638" y="109.22" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">PLAYING</text>
-<text x="34.798" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
 <wire x1="75.946" y1="83.566" x2="74.168" y2="83.566" width="0.2032" layer="21"/>
 <wire x1="74.168" y1="83.566" x2="73.66" y2="84.074" width="0.2032" layer="21"/>
 <wire x1="75.946" y1="124.206" x2="74.168" y2="124.206" width="0.2032" layer="21"/>
@@ -931,7 +921,6 @@ VDC</text>
 <text x="29.464" y="147.828" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">MIDI</text>
 <text x="24.638" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
 <text x="29.464" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
-<text x="32.004" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="26.924" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="25.908" y="149.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IN</text>
 <text x="32.258" y="149.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
@@ -939,7 +928,6 @@ VDC</text>
 <wire x1="35.56" y1="148.336" x2="31.242" y2="148.336" width="0.2032" layer="22"/>
 <wire x1="27.94" y1="148.336" x2="23.876" y2="148.336" width="0.2032" layer="22"/>
 <wire x1="23.876" y1="148.336" x2="23.368" y2="148.844" width="0.2032" layer="22"/>
-<text x="34.798" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
 <wire x1="82.804" y1="123.698" x2="82.804" y2="105.918" width="0.2032" layer="22"/>
 <wire x1="82.296" y1="124.206" x2="82.804" y2="123.698" width="0.2032" layer="22"/>
 <wire x1="82.296" y1="124.206" x2="81.788" y2="124.206" width="0.2032" layer="22"/>
@@ -968,7 +956,7 @@ VDC</text>
 <wire x1="162.306" y1="81.026" x2="162.306" y2="154.686" width="0.2032" layer="20"/>
 <wire x1="162.306" y1="154.686" x2="87.376" y2="154.686" width="0.2032" layer="20"/>
 <wire x1="87.376" y1="154.686" x2="87.376" y2="81.026" width="0.2032" layer="20"/>
-<text x="98.298" y="151.638" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="98.298" y="151.638" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="125.984" y="149.606" size="3.81" layer="21" font="vector" ratio="15" align="bottom-center">Tsunami</text>
 <text x="125.476" y="147.574" size="1.4224" layer="21" font="vector" ratio="15" align="bottom-center">Super WAV Trigger</text>
 <text x="154.686" y="150.876" size="1.27" layer="21" font="vector" ratio="15" align="center-right">1L</text>
@@ -1080,7 +1068,6 @@ VDC</text>
 <text x="102.616" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="107.696" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="105.156" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
-<text x="110.236" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
 <text x="104.14" y="149.86" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">IN</text>
 <text x="110.236" y="149.86" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">OUT</text>
 <wire x1="101.346" y1="148.844" x2="101.854" y2="148.336" width="0.2032" layer="21"/>
@@ -1092,7 +1079,6 @@ VDC</text>
 <wire x1="151.638" y1="98.298" x2="151.638" y2="84.074" width="0.2032" layer="21"/>
 <text x="101.219" y="84.836" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">FTDI</text>
 <text x="102.616" y="109.22" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">PLAYING</text>
-<text x="112.776" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
 <wire x1="153.924" y1="83.566" x2="152.146" y2="83.566" width="0.2032" layer="21"/>
 <wire x1="152.146" y1="83.566" x2="151.638" y2="84.074" width="0.2032" layer="21"/>
 <wire x1="153.924" y1="124.206" x2="152.146" y2="124.206" width="0.2032" layer="21"/>
@@ -1133,7 +1119,6 @@ VDC</text>
 <text x="107.442" y="147.828" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">MIDI</text>
 <text x="102.616" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
 <text x="107.442" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
-<text x="109.982" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="104.902" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="103.886" y="149.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IN</text>
 <text x="110.236" y="149.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
@@ -1141,7 +1126,6 @@ VDC</text>
 <wire x1="113.538" y1="148.336" x2="109.22" y2="148.336" width="0.2032" layer="22"/>
 <wire x1="105.918" y1="148.336" x2="101.854" y2="148.336" width="0.2032" layer="22"/>
 <wire x1="101.854" y1="148.336" x2="101.346" y2="148.844" width="0.2032" layer="22"/>
-<text x="112.776" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
 <wire x1="160.782" y1="123.698" x2="160.782" y2="105.918" width="0.2032" layer="22"/>
 <wire x1="160.274" y1="124.206" x2="160.782" y2="123.698" width="0.2032" layer="22"/>
 <wire x1="160.274" y1="124.206" x2="159.766" y2="124.206" width="0.2032" layer="22"/>
@@ -1170,7 +1154,7 @@ VDC</text>
 <wire x1="240.284" y1="81.026" x2="240.284" y2="154.686" width="0.2032" layer="20"/>
 <wire x1="240.284" y1="154.686" x2="165.354" y2="154.686" width="0.2032" layer="20"/>
 <wire x1="165.354" y1="154.686" x2="165.354" y2="81.026" width="0.2032" layer="20"/>
-<text x="176.276" y="151.638" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="176.276" y="151.638" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V11</text>
 <text x="203.962" y="149.606" size="3.81" layer="21" font="vector" ratio="15" align="bottom-center">Tsunami</text>
 <text x="203.454" y="147.574" size="1.4224" layer="21" font="vector" ratio="15" align="bottom-center">Super WAV Trigger</text>
 <text x="232.664" y="150.876" size="1.27" layer="21" font="vector" ratio="15" align="center-right">1L</text>
@@ -1282,7 +1266,6 @@ VDC</text>
 <text x="180.594" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="185.674" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">4</text>
 <text x="183.134" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
-<text x="188.214" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
 <text x="182.118" y="149.86" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">IN</text>
 <text x="188.214" y="149.86" size="1.016" layer="21" font="vector" ratio="15" align="bottom-center">OUT</text>
 <wire x1="179.324" y1="148.844" x2="179.832" y2="148.336" width="0.2032" layer="21"/>
@@ -1294,7 +1277,6 @@ VDC</text>
 <wire x1="229.616" y1="98.298" x2="229.616" y2="84.074" width="0.2032" layer="21"/>
 <text x="179.197" y="84.836" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">FTDI</text>
 <text x="180.594" y="109.22" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">PLAYING</text>
-<text x="190.754" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
 <wire x1="231.902" y1="83.566" x2="230.124" y2="83.566" width="0.2032" layer="21"/>
 <wire x1="230.124" y1="83.566" x2="229.616" y2="84.074" width="0.2032" layer="21"/>
 <wire x1="231.902" y1="124.206" x2="230.124" y2="124.206" width="0.2032" layer="21"/>
@@ -1335,7 +1317,6 @@ VDC</text>
 <text x="185.42" y="147.828" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">MIDI</text>
 <text x="180.594" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
 <text x="185.42" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">4</text>
-<text x="187.96" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="182.88" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
 <text x="181.864" y="149.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IN</text>
 <text x="188.214" y="149.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">OUT</text>
@@ -1343,7 +1324,6 @@ VDC</text>
 <wire x1="191.516" y1="148.336" x2="187.198" y2="148.336" width="0.2032" layer="22"/>
 <wire x1="183.896" y1="148.336" x2="179.832" y2="148.336" width="0.2032" layer="22"/>
 <wire x1="179.832" y1="148.336" x2="179.324" y2="148.844" width="0.2032" layer="22"/>
-<text x="190.754" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
 <wire x1="238.76" y1="123.698" x2="238.76" y2="105.918" width="0.2032" layer="22"/>
 <wire x1="238.252" y1="124.206" x2="238.76" y2="123.698" width="0.2032" layer="22"/>
 <wire x1="238.252" y1="124.206" x2="237.744" y2="124.206" width="0.2032" layer="22"/>
@@ -1398,6 +1378,26 @@ VDC</text>
 <text x="86.614" y="108.712" size="1.778" layer="20" font="vector" ratio="7" rot="R90">Route out</text>
 <text x="164.592" y="108.458" size="1.778" layer="20" font="vector" ratio="7" rot="R90">Route out</text>
 <text x="164.592" y="42.672" size="1.778" layer="20" font="vector" ratio="7" rot="R90">Route out</text>
+<text x="34.798" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
+<text x="32.258" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
+<text x="34.544" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
+<text x="32.258" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
+<text x="112.776" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
+<text x="110.236" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
+<text x="112.522" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
+<text x="110.236" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
+<text x="190.754" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
+<text x="188.214" y="152.146" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
+<text x="190.5" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
+<text x="188.214" y="152.146" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
+<text x="190.754" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
+<text x="188.214" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
+<text x="190.5" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
+<text x="188.214" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
+<text x="112.776" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">5</text>
+<text x="110.236" y="77.978" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">2</text>
+<text x="112.522" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">5</text>
+<text x="110.236" y="77.978" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2</text>
 </plain>
 <libraries>
 <library name="tapestry">
