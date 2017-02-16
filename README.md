@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME>
+Tsunami
 ========================================
 
 ![Tsunami](https://cdn.sparkfun.com//assets/parts/1/1/3/9/6/13810-01.jpg)
