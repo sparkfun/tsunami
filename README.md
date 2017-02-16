@@ -1,47 +1,42 @@
 SparkFun <PRODUCT NAME>
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![Tsunami](https://cdn.sparkfun.com//assets/parts/1/1/3/9/6/13810-01.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*Tsunami (WIG-13810)*](https://www.sparkfun.com/products/13810)
 
-<Basic description of the part.>
+Tsunami is a polyphonic Wav file player with 4 stereo (or 8 mono) outputs.  Wav files can be triggered using the 16 onboard contacts, via MIDI, or using a serial connection to a PC or other microcontroller.
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/tsunami-hookup-guide)** - Basic hookup guide for  Tsunami.
+* **[Official User Guide](http://robertsonics.com/tsunami-user-guide/)** - More detailed user guide, hosted by Robertsonics.
+* **[Official Downloads Page](http://robertsonics.com/tsunami-downloads/)** - Download supporting files, including firmware updates and the configuration utility.
+
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
+* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products.
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+* [WIG-13810](https://www.sparkfun.com/products/13810) - First hardware revision.
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [Initial production Release](https://github.com/sparkfun/tsunami/commit/f42b14d72773535e83374cde73f2ca3f25164abb) - V11 hardware revision.
 
 License Information
 -------------------
 
-This product is _**open source**_! 
+The hardware design of Tsunami is _**open source**_!
 
-Please review the LICENSE.md file for license information. 
+Please review the LICENSE.md file for license information.
 
 If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
 
@@ -49,4 +44,7 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_<COLLABORATION CREDIT>_
+Authors
+----
+
+Jamie Robertson @ Robertsonics & Byron Jacquot @ SparkFun Electronics
