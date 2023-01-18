@@ -1,4 +1,4 @@
-_Note: This repository is for the Tsunami Super WAV Trigger v1.1. For v1.2, check out the [Tsunami Super WAV Trigger (Qwiic) v1.2 GitHub Repo.](https://github.com/sparkfun/SparkFun_Tsunami_Super_WAV_Trigger_Qwiic)._
+_Note: This repository is for the Tsunami Super WAV Trigger v1.1. For v1.2, check out the [Tsunami Super WAV Trigger (Qwiic) v1.2 GitHub repository](https://github.com/sparkfun/SparkFun_Tsunami_Super_WAV_Trigger_Qwiic)._
 
 Tsunami Super WAV Trigger
 ========================================
